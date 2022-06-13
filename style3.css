@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "fontRopaSans";
+    src: url(./font/RopaSans-Regular.ttf);
+}
+
+header {
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.25);
+    width: 697px;
+    max-width: 100%;
+    margin: auto;
+}
+
+/* barra de menu */
+.containerMenu {
+    display: flex;
+    justify-content: space-between;
+    width: 697px;
+    height: 49px;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+}
+
+.img-logo {
+    display: flex;
+    width: 63px;
+    height: 25px;
+    margin-top: 8px;
+    margin-left: 44px;
+}
+
+.text-logo {
+    display: flex;
+    width: 38px;
+    margin-top: 11px;
+    margin-left: 5px;
+    font-size: 11px;
+    font-family: "fontRopaSans";
+    color: #AAAAAA;
+}
+
+.btnMenu {
+    width: 18px;
+    height: 12px;
+    margin-top:16px;
+    margin-right: 31px;
+}
+
+/* slide show*/
+.sliderContainer {
+    width: 697px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+        
+}
+
+.slider {
+    padding-top: 20px;
+}
+
+/* Seção de destaques */
+.projectContainer {
+    display:flex;
+    flex-direction: column;
+    width: 250px;
+    margin:auto
+}
+
+.flex-between {
+    display:flex;
+    justify-content: space-between;
+}
+
+.price1 {
+    font-family: "fontRopaSans";
+    font-size: 25px;
+    color: #888888;
+}
+
+.price2 {
+    font-family: "fontRopaSans";
+    font-size: 25px;
+    color: #888888;
+
+}
+
+.img-card {
+    width: 100%;
+    height: 150px;
+    background-repeat: no-repeat;
+}
+
+article .info {
+    padding: 10px;
+    font-family: "fontRopaSans";
+    background-color: #EEEEEE;
+    text-align: justify;
+}
+
+.tag1 {
+    text-align: center;
+    width: 56px;
+    height: 21px;
+    font-family: 'fontRopaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10.5px;
+    background-color: #51d275;
+}
+
+.tag2 {
+    text-align: center;
+    width: 56px;
+    height: 21px;
+    font-family: 'fontRopaSans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 10.5px;
+    background-color: #DC9730;
+}
+
+.projects {
+    background-color: white;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0px 10px;
+    width: 697px;
+    padding-top:37px;
+    margin:auto;
+}
+
+.styleOptions {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #888888;
+    font-family: "fontRopaSans";
+    font-size: 25px;
+    text-align: center;
+}
+
+.img-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 608px;
+    height: 80px;
+    font-family: "fontRopaSans";
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 13px;
+}
+
+@media (max-width: 500px) {
+    .container {
+        background-color: black;
+    }
+}

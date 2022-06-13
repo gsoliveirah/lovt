@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "RopaSans";
+    src: url(/font/RopaSans-Regular.ttf);
+}
+
+header {
+    width: 697px;
+    height: 49px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.25);
+    display: flex;
+    margin: auto;
+}
+
+#containerMenu {
+    width:697px;
+    height: 49px;
+    margin:auto;
+    display:flex;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+#logo {
+    padding-left:44px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#img-logo {
+    max-height: 49px;
+    padding-top: 8px;
+}
+
+#slogan {
+    font-family: "RopaSans";
+    font-size: 10px;
+    color: #AAAAAA;
+    width: 40px;
+    padding-left: 3px;
+    padding-top: 10px;
+}
+
+#menu {
+    padding-right: 31px;
+    padding-top: 16px;
+}
+
+main {
+    width: 697px;
+    margin: auto;
+}
+
+.sliderContainer {
+    background-color: chartreuse;
+    width: 608px;
+    height: 259px;
+    margin:auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    background: #ffff url(/img/slide-1.png) no-repeat;
+}
+
+.ctrlSlide {
+    background: rgba(141, 141, 141, 0.62);
+    width: 39px;
+    height: 39px;
+    border-radius: 50%;
+    margin: 110px 12px 0 12px;
+    text-align: center;
+}
+
+.arrow {
+    text-align: center;
+    margin: 10px;
+}
+
+.projectsContainer {
+    display:flex;
+    justify-content: space-between;
+    width: 608px;
+    margin: auto;
+    margin-top: 37px;
+}
+
+.projects {
+    width: 256px;
+    background-color: #eeeeee;
+}
+
+.infoProject {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {
+    height: 33px;
+    font-family: "RopaSans";
+    font-size: 25px;
+    color: rgba(136, 136, 136, 1);
+    margin-left: 12px;
+    margin-top: 9px;
+}
+
+.tagNew {
+    width: 56px;
+    height: 21px;
+    margin-top: 9px;
+    border-radius: 10.5px;
+    font-family: "RopaSans";
+    font-size: 20px;
+    background-color: #51D275;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+
+}
+
+.tagSale {
+    width: 56px;
+    height: 21px;
+    margin-top: 9px;
+    border-radius: 10.5px;
+    font-family: "RopaSans";
+    font-size: 20px;
+    background-color:#DC9730;
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+}
+
+.descriptionProject {
+    font-family: "RopaSans";
+    font-size: 10px;
+    text-align: justify;
+    margin: 0 12px 12px 12px;
+}
+
+.stylesContainer {
+    display: flex;
+    margin: auto;
+    justify-content:center;
+}
+
+.yourStyles {
+    width: 608px;
+    height: 33px;
+    margin-top: 45px;
+    font-family: "RopaSans";
+    font-size: 25px;
+    color: #888888;
+    text-align: center;
+}
+
+.styleItem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 608px;
+    height: 80px;
+    font-family: "RopaSans";
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    margin-top: 13px;
+}
+
+footer {
+    max-width: 697px;
+    width:auto;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 57px;
+    background-color: rgba(51, 51, 51, 1);
+}
+
+.map {
+    display: flex;
+    margin: 40px 0 40px 48px;
+}
+
+.address {
+    display:block;
+    margin-top: 49px;
+    padding-right: 45px;
+    font-family: "RopaSans";
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: justified;
+    color: rgba(255, 255, 255, 1);
+}
+
+.socialMedias {
+    font-family: RopaSans;
+    font-size: 12px;
+    color:#ffffff;
+    line-height:20px;
+    
+}
+
+.iconSocialMedias {
+    width: 95px;
+    display: flex;
+    justify-content: space-between;
+    
+}
