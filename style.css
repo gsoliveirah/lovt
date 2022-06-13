@@ -118,7 +118,7 @@ main {
     background-color: #51D275;
     color: rgba(255, 255, 255, 1);
     text-align: center;
-
+    margin-right: 13px;
 }
 
 .tagSale {
@@ -131,6 +131,7 @@ main {
     background-color:#DC9730;
     color: rgba(255, 255, 255, 1);
     text-align: center;
+    margin-right: 13px;
 }
 
 .descriptionProject {
